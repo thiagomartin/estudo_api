@@ -1,4 +1,4 @@
-class ArticlesController < ApplicationController
+class Api::V2::ArticlesController < ApplicationController
   before_action :set_article, only: %i[ show update destroy ]
 
   # GET /articles
